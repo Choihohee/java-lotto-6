@@ -1,9 +1,9 @@
-package lotto;
+package Model;
 
 import java.util.List;
 
-public class Lotto {
-    private final List<Integer> numbers;
+public class Lotto {    //당첨번호 6자리
+    private final List<Integer> numbers; //
 
     public Lotto(List<Integer> numbers) {
         validate(numbers);
